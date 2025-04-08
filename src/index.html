@@ -28,6 +28,25 @@
             h1 {
                 padding-top: 20px;
             }
+
+            .projects {
+                width: 33%;
+                border: 1px solid #ccc;
+                padding-left: 5px;
+
+            }
+            
+            .experience {
+                width: 33%;
+                border: 1px solid #ccc;
+                padding-left: 5px;
+            }
+
+            .education {
+                width: 33%;
+                border: 1px solid #ccc;
+                padding-left: 5px;
+            }
             
         </style>
 
@@ -48,7 +67,8 @@
         </header>
         
         <h1>Frontend Developer</h1>
-        <section class="projects">
+        <div style="display: flex; border: 1px solid #ccc;">
+            <div class="projects">
                 <h2>Projects</h2>
                 <ul>
                     <li>HTML only portfolio</li>
@@ -56,18 +76,18 @@
                     <li>Countdown Timer</li>
                     <li>Product Upcoming Page</li>
                 </ul>
-            </section>
+            </div>
 
-        <section class="Experience">
+        <div class="experience">
             <h2>Work experience</h2>
             <p1>roadmap.sh</p1>
             <br>
             <p2>Frontend projects in progress</p2>
             <br>
             <a href="https://roadmap.sh/u/mkalashnikova">Visit my Profile</a>
-        </section>
+        </div>
 
-        <section class="Education">
+        <div class="education">
             <h2>Education</h2>
             <p1>Self-study based on the <a href="https://ru.hexlet.io/">Hexlet</a>, <a href="https://stepik.org/catalog">Stepik</a> courses:</p1>
             <br>
@@ -78,26 +98,32 @@
                 <li>Basics of Web Layout with HTML and CSS</li>
                 <li>Introduction to SQL</li>
             </ul>
-        </section>
+        </div>
+        </div>
+
+        <h2>Reviews from my Peers</h2>
+        <div style="display: flex; border: 1px solid #ccc;">
+            <div class="reviews">
+                <blockquote>
+                    <p>MK was a brilliant peer; always stood out with her assignments.</p>
+                </blockquote>
+                <p>John Doe</p>
+            </div>
+            <div class="reviews">
+                <blockquote>
+                    <p>MK was a brilliant peer; always stood out with her assignments.</p>
+                </blockquote>
+                <p>Jane Doe</p>
+            </div>
+
+            <div class="reviews">
+                <blockquote>
+                    <p>MK was a brilliant peer; always stood out with her assignments.</p>
+                </blockquote>
+                <p>John Doe</p>
+            </div>
+        </div>
         
-        <section class="Reviews">
-            <h2>Reviews from my Peers</h2>
-            <blockquote>
-                <p>MK was a brilliant peer; always stood out with her assignments.</p>
-            </blockquote>
-            <p>John Doe</p>
-            
-            <blockquote>
-                <p>MK was a brilliant peer; always stood out with her assignments.</p>
-            </blockquote>
-            <p>Jane Doe</p>
-
-            <blockquote>
-                <p>MK was a brilliant peer; always stood out with her assignments.</p>
-            </blockquote>
-            <p>John Doe</p>
-
-        </section>
     </body>
 
     </html>
