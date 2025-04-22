@@ -13,16 +13,46 @@
     </head>
 
     <body>
+        <div class="wrapper">
+
         <style>
+
             * {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
 
+            .wrapper {
+                max-width: 870px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #f9e6c8;
+                padding-left: 16px;
+    padding-right: 16px;
+            }
+
             .menu {
-                display: block;
                 padding: 8px;
-                background-color: #dddddd;
+                background-color: #f6c980;
                 text-decoration: none; 
+            }
+
+            header {
+                display: table;
+                padding: 2em 5%;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            header nav,
+            header div {
+                display: table-cell;
+                height: 100%;
+                vertical-align: middle;
+                height: 8em;
+            }
+
+            header nav {
+                text-align: right;
             }
             
             h1 {
@@ -52,18 +82,12 @@
 
         <header>
         <h>Margarita Kalashnikova</h>
-        <li style="display: inline; float: right;">
+        <nav>
+            <a class="menu" href="index.html" target="_self">Home</a>
+            <a class="menu" href="projects.html" target="_parent">Projects</a>
+            <a class="menu" href="articles.html" target="_parent">Articles</a>
             <a class="menu" href="contact.html" target="_parent">Contact</a>
-        </li>
-        <li style="display: inline; float: right;">
-            <a class="menu" href="articles.html" target="_parent">Articles /</a>
-            </li>
-        <li style="display: inline; float: right;">
-            <a class="menu" href="projects.html" target="_parent">Projects /</a>
-        </li>
-        <li style="display: inline; float: right;">
-            <a class="menu" href="index.html" target="_self">Home /</a>
-        </li>
+        </nav>
         </header>
         
         <h1>Frontend Developer</h1>
@@ -122,6 +146,7 @@
                 </blockquote>
                 <p>John Doe</p>
             </div>
+        </div>
         </div>
         
     </body>
